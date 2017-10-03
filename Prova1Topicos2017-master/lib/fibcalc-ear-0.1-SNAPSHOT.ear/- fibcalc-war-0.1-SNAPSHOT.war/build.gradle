@@ -1,0 +1,3 @@
+aapply plugin: 'war'
+
+jar.enabled = false

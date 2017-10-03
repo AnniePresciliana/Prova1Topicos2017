@@ -1,10 +1,12 @@
 public class Fibonacci {
- 
-    static long fibo(int n) {
-        if (n < 2) {
-            return n;
+ import java.util.Scanner;import java.util.Scanner;
+   import java.util.Scanner;
+   
+    static long fibo(int num) {
+        if (num < 2) {
+            return num;
         } else {
-            return fibo(n - 1) + fibo(n - 2);
+            return fibo(num - 1) + fibo(num - 2);
         }
     }
  
